@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Emoji Progression Bar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Emoji Progression Bar</h1>
+    <div id="emoji-message">Select an Emoji</div>
+    <div class="progress-text" id="progress-text">0%</div>
+    <div class="progress-bar-container">
+      <div class="progress-bar" id="progress-bar"></div>
+    </div>
+    <div id="emoji-selector">
+      <span class="emoji" data-progress="0" data-color="#3498db" data-message="Feeling Sad">😔</span>
+      <span class="emoji" data-progress="25" data-color="#95a5a6" data-message="Feeling Neutral">😐</span>
+      <span class="emoji" data-progress="50" data-color="#f1c40f" data-message="Feeling Okay">😊</span>
+      <span class="emoji" data-progress="75" data-color="#2ecc71" data-message="Feeling Happy">😁</span>
+      <span class="emoji" data-progress="100" data-color="#e74c3c" data-message="Feeling Awesome! 🎉">🤩</span>
+    </div>
+    <canvas id="confetti-canvas"></canvas>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
